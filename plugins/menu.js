@@ -15,31 +15,31 @@ const defaultMenu = {
   before: `───────━⃝┅ *D A S H B O A R D* ┅⃝━───────
   
                「 *U S E R* 」
-🎐 *Name:* %name
-🎐 *Tags:* %tag
-🎐 *Premium:* %prems
-🎐 *Age:* %age
-🎐 *Limit:* %limit
-🎐 *Money:* %money
-🎐 *Role:* %role
-🎐 *Level:* %level [%xp4levelup]
-🎐 *Xp:* %exp / %maxexp
-🎐 *Total Xp:* %totalexp
+✥ *Name:* %name
+✥ *Tags:* %tag
+✥ *Premium:* %prems
+✥ *Age:* %age
+✥ *Limit:* %limit
+✥ *Money:* %money
+✥ *Role:* %role
+✥ *Level:* %level [%xp4levelup]
+✥ *Xp:* %exp / %maxexp
+✥ *Total Xp:* %totalexp
 
                「 *T O D A Y* 」
 *${ucapan()}*
-🎐 *Days:* %week %weton
-🎐 *Date:* %date
-🎐 *Islamic Date:* %dateIslamic
-🎐 *Time:* %wib
+✥ *Days:* %week %weton
+✥ *Date:* %date
+✥ *Islamic Date:* %dateIslamic
+✥ *Time:* %wib
 
                「 *I N F O* 」
-🎐 *Bot Name:* %me
-🎐 *Mode:* %mode
-🎐 *Prefix:* [ %_p ]
-🎐 *Platform:* %platform
-🎐 *Uptime:* %muptime
-🎐 *Database:* %rtotalreg dari %totalreg
+✥ *Bot Name:* %me
+✥ *Mode:* %mode
+✥ *Prefix:* [ %_p ]
+✥ *Platform:* %platform
+✥ *Uptime:* %muptime
+✥ *Database:* %rtotalreg dari %totalreg
 
 「 *I N F O  C M D* 」
 *Ⓟ* = Premium
@@ -428,30 +428,30 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
      
      ${week}, ${date}`*/
      let tksk = `「 *Cαℓendαr*」
-🌸 Days: ${week} ${weton}
-🌸 Date: ${date}
-🌸 Time: ${wib}
+❀ Days: ${week} ${weton}
+❀ Date: ${date}
+❀ Time: ${wib}
 
 「 *Ʋser Ɩnfσrmαtισn* 」
-🌸 Name: ${name}
-🌸 Number: ${tag}
-🌸 Bio: ${bioo ? bioo : ''}
-🌸 Premium: ${premium ? 'Yes' : 'No'}
-🌸 Limit: ${global.db.data.users[m.sender].limit}
+❀ Name: ${name}
+❀ Number: ${tag}
+❀ Bio: ${bioo ? bioo : ''}
+❀ Premium: ${premium ? 'Yes' : 'No'}
+❀ Limit: ${global.db.data.users[m.sender].limit}
 
 「 *Bσt Ɩnfσrmαtισn* 」
-🌸 Runtime: ${uptime}
-🌸 Bot Name: ${conn.user.name}
-🌸 Name Owner: ℓettα - sαmα
-🌸 Number Owner: ${ow}
-🌸 Platform: ${platform}
-🌸 Mode: ${mode}
-🌸 Users: ${totalreg}
-🌸 Database: Lowdb
+❀ Runtime: ${uptime}
+❀ Bot Name: ${conn.user.name}
+❀ Name Owner: ℓettα - sαmα
+❀ Number Owner: ${ow}
+❀ Platform: ${platform}
+❀ Mode: ${mode}
+❀ Users: ${totalreg}
+❀ Database: Lowdb
 
                 「 *Ƙαnnα BOT あ⁩* 」`
 
-let ftt = `©️ Created By Letta - Sama`
+let ftt = `❖Kanna-BOT|by Hyzer`
     if (teks == '404') {
       return conn.send3ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/c73f47b440241b66cb9d3.jpg')).buffer(), tksk, ftt, 'COMMAND', '.simplemenu', 'DONASI', '.donasi', 'OWNER', '.nowner', m, { contextInfo: { mentionedJid: conn.parseMention(tksk)}})
   
@@ -569,7 +569,7 @@ let ftt = `©️ Created By Letta - Sama`
             "fileLength": "99999999999999",
             "pageCount": 100,
             "mediaKey": "XWv4hcnpGY51qEVSO9+e+q6LYqPR3DbtT4iqS9yKhkI=",
-            "fileName": 'Creαted by : ℓettα - sαmα ♡',
+            "fileName": 'Creαted by : hyzer',
             "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
             "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
@@ -616,7 +616,7 @@ let ftt = `©️ Created By Letta - Sama`
             description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
             mediaType: 2,
           thumbnail: logo,
-         mediaUrl: `https://youtube.com/watch?v=uIedYGN3NQQ`
+         mediaUrl: `https://youtube.com/channel/UCBtUyjfIclyuu7yXKS0dAMw`
         }
      }
     })*/

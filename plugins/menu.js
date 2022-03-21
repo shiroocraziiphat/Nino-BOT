@@ -34,7 +34,7 @@ const defaultMenu = {
 ✥ *Time:* %wib
 
                「 *I N F O* 」
-✥ *Bot Name:* %me
+✥ *Bot Name:* Nino「 BOT 」XYZ
 ✥ *Mode:* %mode
 ✥ *Prefix:* [ %_p ]
 ✥ *Platform:* %platform
@@ -449,9 +449,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ❀ Users: ${totalreg}
 ❀ Database: Lowdb
 
-                「 *Ƙαnnα BOT あ⁩* 」`
+                「 *Nino BOT* 」`
 
-let ftt = `❖Kanna-BOT|by Hyzer`
+let ftt = `Nino BOT|by Hyzer`
     if (teks == '404') {
       return conn.send3ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/c73f47b440241b66cb9d3.jpg')).buffer(), tksk, ftt, 'COMMAND', '.simplemenu', 'DONASI', '.donasi', 'OWNER', '.nowner', m, { contextInfo: { mentionedJid: conn.parseMention(tksk)}})
   
@@ -548,8 +548,8 @@ let ftt = `❖Kanna-BOT|by Hyzer`
             body: `${wktuwib}`,
             description: `${wktuwib}`,
             mediaType: 2,
-          thumbnail: await (await fetch('https://telegra.ph/file/fcaea82e59569e40317b8.jpg')).buffer(),
-         mediaUrl: `https://www.facebook.com/Inunime-107082474576049/`
+          thumbnail: await (await fetch('https://telegra.ph/file/d5a29ba0c71104aa0e8dc.jpg')).buffer(),
+         mediaUrl: `https://youtube.com/channel/UCBtUyjfIclyuu7yXKS0dAMw`
         }*/
      }
     })
@@ -573,7 +573,7 @@ let ftt = `❖Kanna-BOT|by Hyzer`
             "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
             "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
             "mediaKeyTimestamp": "1634472176",
-            "jpegThumbnail": await (await fetch('https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg')).buffer(),
+            "jpegThumbnail": await (await fetch('https://telegra.ph/file/72168c6f1aaa90315c369.jpg')).buffer(),
   }}, 'buttonsMessage', { quoted: ftroli, contextInfo: { mentionedJid: conn.parseMention(text), forwardingScore: 999, isForwarded: true, externalAdReply: { title: global.wm, body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, mediaType: 2, thumbnail: await (await fetch(`${logos()}`)).buffer(), mediaUrl: `https://youtube.com/watch?v=uIedYGN3NQQ`}}})
   */
   

@@ -83,16 +83,16 @@ function logos() {
   const lgs = moment.tz('Asia/Jakarta').format('HH')
   res = "Selamat dinihari"
   if (lgs >= 4) {
-    imp = 'https://telegra.ph/file/5a882b8558fd1d2bd03fa.jpg'
+    imp = 'https://telegra.ph/file/0859a0947f12861bcb182.jpg'
   }
   if (lgs > 10) {
-    imp = 'https://telegra.ph/file/273ec3d04018c9b528c3e.jpg'
+    imp = 'https://telegra.ph/file/0859a0947f12861bcb182.jpg'
   }
   if (lgs >= 15) {
-    imp = 'https://telegra.ph/file/88edbb01051b397574def.jpg'
+    imp = 'https://telegra.ph/file/0859a0947f12861bcb182.jpg'
   }
   if (lgs >= 18) {
-    imp = 'https://telegra.ph/file/e6e6922ff0da8a598b9e0.jpg'
+    imp = 'https://telegra.ph/file/0859a0947f12861bcb182.jpg'
   }
   return imp
 }

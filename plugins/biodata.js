@@ -5,24 +5,24 @@ let handler = async (m, { conn, text }) => {
 let logo = global.logoowner
   let ext= `
 *───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Letta
-*✉️ Nama RL* : Aarav
+*💌 Nama* : Ali
+*✉️ Nama RL* : Hyzer
 *♂️ Gender* : Laki - laki
-*🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 5 oktober 2008
-*🎨 Umur* : 13
-*🧮 Kelas* : 7
+*⛪ Agama* : Kristen Khatolik
+*⏰ Tanggal lahir* : [ private ]
+*🎨 Umur* : [ private ]
+*🧮 Kelas* : [ private ]
 *🧩 Hobby* : Nonton anime, main game, Recode script
-*💬 Sifat* : Baik, hode, softboy, tydack ramah, g*y
-*🗺️ Tinggal* : Indonesia, jawa, bogor
+*💬 Sifat* : Baik, hode, softboy, tydack ramah, fudanshi
+*🗺️ Tinggal* : Indonesia, sumatera utara, medan
 *❤️ Suka* : warnah pink & biru, anime, waifu wangy, kucing
-*💔 Benci* : kecoa, autis, anak epep
+*💔 Benci* : kecoa kayak kaori, autis, anak epep
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @ppiowy_
-*🇫  Facebook* : none
-*🏮 Chanel Youtube* : zeeoneofc
-*🐈 Github:* Kannachann
+*📷 instagran* : @hyzer_stfu
+*🇫  Facebook* : nothing
+*🏮 Chanel Youtube* : https://youtube.com/channel/UCBtUyjfIclyuu7yXKS0dAMw
+*🐈 Github:* https://github.com/Hyzerr
 `
 let name = await conn.getName(m.sender)
 
@@ -42,7 +42,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "62831433937633@s.whatsapp.net",
+      "businessOwnerJid": "6287892711054@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": false

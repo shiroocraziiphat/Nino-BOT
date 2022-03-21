@@ -887,32 +887,32 @@ Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
           "title": msg,
           "description": des,
           "footerText": global.botdate,
-          "buttonText": "Kanna BOT",
+          "buttonText": "Nino BOT",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": `MY OWNER`,
-                                         "description": "List Owner Kanna BOT",
+                                         "description": "Pemilik Nino BOT",
                                          "rowId": ".nowner"
                                     }, {
                                          "title": `ABOUT`,
-                                         "description": " Tentang Kanna BOT", 
+                                         "description": " Tentang Nino BOT", 
                                          "rowId": ".info"
                                     }, {
                                          "title": `LIST MENU`,
-                                         "description": " List Menu Kanna BOT",
+                                         "description": " List Menu Nino BOT",
                                          "rowId": ".menu"
                                     }, {
                                          "title": `SCRIPT`,
-                                         "description": " Source code Kanna BOT",
+                                         "description": " Source code Nino BOT",
                                          "rowId": ".sc"
                                          }, {
                                          "title": `GROUP BOT`,
-                                         "description": " List Group Official Kanna BOT",
+                                         "description": " List Group Official Nino BOT",
                                          "rowId": ".gcbot"
                        }],
-                    "title": "Created By ℓettα - sαmα ♡"
+                    "title": "Created By 𝐡𝐲𝐳𝐞𝐫𝐫"
                   }
                         ], "contextInfo": 
                          { "stanzaId": m.key.id,

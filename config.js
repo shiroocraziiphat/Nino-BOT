@@ -73,17 +73,17 @@ global.packname = '🌙 kanna-bot'
 global.author = '><'
 
 // BOT WM
-global.botwm = '▧ Kαnnα BOT | by hyzer' //UBAH SETERAHMU
-global.wm = 'Kanna BOT（｡>‿‿<｡ ）'
+global.botwm = '❖ Nino BOT | by hyzer' //UBAH SETERAHMU
+global.wm = 'Nino BOT（｡>‿‿<｡ ）'
 global.botdate = `❏ ${wktuh} H  ${wktum} M  ${wktus} S\n❏ ${week} ${date}`
 
 // LOGO
-global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
-global.logo = fs.readFileSync('./src/logo3.jpg')
-global.thumb1 = 'https://telegra.ph/file/5a882b8558fd1d2bd03fa.jpg'
-global.thumb2 = 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg'
-global.thumb3 = 'https://telegra.ph/file/88edbb01051b397574def.jpg'
-global.thumb4 = 'https://telegra.ph/file/7957630a57078c5ec0400.jpg'
+global.imagebot = `https://telegra.ph/file/6c5d5e42ab4e33713246c.jpg`
+global.logo = fs.readFileSync('./src/nino2.jpg')
+global.thumb1 = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
+global.thumb2 = 'https://telegra.ph/file/e9789a33a24979e4c8216.jpg'
+global.thumb3 = 'https://telegra.ph/file/d5a29ba0c71104aa0e8dc.jpg'
+global.thumb4 = 'https://telegra.ph/file/c929706a3fccc9485a93c.jpg'
 global.logoowner = fs.readFileSync('./src/owner.jpg')
 
 // HANTAI

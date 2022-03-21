@@ -260,7 +260,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     const jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60))
     const detikk = Math.floor( lebih % (1000 * 60) / 1000)
-    const ultah = new Date('October 4, 2022 23:59:59')
+    const ultah = new Date('February 6, 2022 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -323,8 +323,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     let wm = global.botwm
     let datebot = global.botdate
     let logo = global.logo
-  let logo2 = fs.readFileSync('./src/logo2.jpg')
-  let logo3 = fs.readFileSync('./src/logo3.jpg')
+  let logo2 = fs.readFileSync('./src/nino2.jpg')
+  let logo3 = fs.readFileSync('./src/nino3.jpg')
   kannaImg = (await conn.prepareMessage('0@s.whatsapp.net', fs.readFileSync('./thumbnail.jpg'), MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
   sumberImg = await (await fetch(fla + teks + ' menu')).buffer()
   image = (await conn.prepareMessage('0@s.whatsapp.net', logo2, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
@@ -442,8 +442,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 「 *Bσt Ɩnfσrmαtισn* 」
 ❀ Runtime: ${uptime}
 ❀ Bot Name: ${conn.user.name}
-❀ Name Owner: ℓettα - sαmα
-❀ Number Owner: ${ow}
+❀ Name Owner: hyzerr
+❀ Number Owner: wa.me/6287892711054
 ❀ Platform: ${platform}
 ❀ Mode: ${mode}
 ❀ Users: ${totalreg}

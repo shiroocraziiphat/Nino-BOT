@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="https://telegra.ph/file/8c0c0d33c6129af67e9c1.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
+    <img src="https://telegra.ph/file/6c5d5e42ab4e33713246c.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">Kanna BOT</h1>
+<h1 align="center">Nino BOT</h1>
 
 <a href="https://github.com/Kannachann/kanna-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Kannachann/kanna-wabot?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/Kannachann/kanna-wabot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Kannachann/kanna-wabot?label=Watchers&color=green&style=flat-square"></a>
@@ -52,7 +52,7 @@ Click Run
 
 ```bash
 git clone https://github.com/Kannachann/kanna-wabot/
-cd kanna-wabot
+cd Nino-BOT
 npm i
 npm update
 node .

@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
     let waofc = `@${'0'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let ow = `@${'62831433937633'.split('@')[0]}`
+ let ow = `@${'6287892711054'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let tks = `Apa yang mau ditanyain ke ${ow}?
 menemukan bug?
@@ -16,7 +16,7 @@ menemukan bug?
  ${ow} Hanya menjawab chat seputar BOT`
   await conn.sendMessage(m.chat, {
     contacts: [{
-    "displayName": "ᴏᴡɴᴇʀ ᴋᴀɴɴᴀʙᴏᴛ",
+    "displayName": "Pemilik Nino BOT",
       "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:ᴏᴡɴᴇʀ ᴋᴀɴɴᴀʙᴏᴛ\nitem1.TEL;waid=62831433937633:62831433937633\nitem1.X-ABLabel:📍 Creator\nitem2.TEL;waid=6283143393763:6283143393763\nitem2.X-ABLabel:📍 Whatsapp Bot\nitem3.EMAIL;type=INTERNET: kannxofc@gmail.com\nitem3.X-ABLabel:💌 Email\nitem4.URL:nekopoi.care\nitem4.X-ABLabel:📮 Rest Api\nitem5.ADR:;;❦ ℒℯ𝓉𝓉𝒶 - 𝒮𝒶𝓃𝒶;;;;\nitem5.X-ABADR:ac\nitem5.X-ABLabel:──────────────\nitem6.X-ABLabel:⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\nEND:VCARD"
   }, {
     "displayName": "Whatsapp",
